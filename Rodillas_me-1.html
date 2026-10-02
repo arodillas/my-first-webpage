@@ -3,31 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <title>Rodillas | Machine Exercise 1</title>
+    <link href="styles_me2.css" rel="stylesheet">
   </head>
 
   <body>
-    <center>
-      <table width="500" border="1" cellpadding="15" >
-        <caption> My Personal Profile </caption>
+    <main>
+      <table>
+        <caption>My Personal Profile</caption>
         <tr>
-          <th colspan="2" align="center" bgcolor="darkblue">Adrian Bryan T. Rodillas</th>
+          <th class="sections" colspan="2">Adrian Bryan T. Rodillas</th>
         </tr>
 
         <tr>
           <td>
-            <img src="profile.jpeg" alt="Profile Picture" width="150" height="150">
+            <img src="profile.jpeg" alt="Profile Picture" width="150">
           </td>
           <td> 
-            <br><br>
-            <b>Full Name:</b> Adrian Bryan T. Rodillas<br><br>
-            <b>Birthday:</b> February 5, 2007<br><br>
-            <b>Status:</b> <tt>Student</tt><br><br>
-            <br><br>
+            <div id="information">
+              <b>Full Name:</b> Adrian Bryan T. Rodillas<br><br>
+              <b>Birthday:</b> February 5, 2007<br><br>
+              <b>Status:</b> <span id="status">Student</span>
+            </div>
           </td>
         </tr>
 
         <tr>
-          <td align="center" bgcolor="silver"><b>Hobbies</b></td>
+          <td class="categories">Hobbies</td>
           <td>
             <ul>
               <li>Magdrawing</li>
@@ -38,7 +39,7 @@
         </tr>
 
         <tr>
-          <td align="center" bgcolor="silver"><b>Top 3 Movies</b></td>
+          <td class="categories">Top 3 Movies</td>
           <td>
             <ol>
               <li>Bridge to Terabithia (2007)</li>
@@ -49,21 +50,27 @@
         </tr>
 
         <tr>
-          <td align="center" bgcolor="silver"><b>Favorite Quote</b></td>
-          <td align="center">
-            <q>Do or do not, there is no try.</q>
+          <td class="categories">Favorite Quote</td>
+          <td>
+            <div id="quote">
+              <q>Do or do not, there is no try.</q>
+            </div>
           </td>
         </tr>
 
         <tr>
-          <td align="center" bgcolor="silver"><b>Fun Fact</b></td>
-          <td align="justify">I used to help my dad with his work on fixing appliances, particularly with <ins>electric fans.</ins></td>
+          <td class="categories">Fun Fact</td>
+          <td>
+            <div id="fun-fact">I used to help my dad with his work on fixing appliances, particularly with <span id="highlight">electric fans</span>.</div>
+          </td>
         </tr>
 
         <tr>
-          <td bgcolor="darkblue" colspan="2" align="center"><a href="https://github.com/arodillas">My Github Profile</a></td>
+          <td class="sections" colspan="2">
+            <div id="footer"><a href="https://github.com/arodillas">My Github Profile</a></div>
+          </td>
         </tr>
       </table>
-    </center>
+    </main>
   </body>
 </html>

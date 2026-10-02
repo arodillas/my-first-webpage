@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #f9f7f0;
+}
+
+table {
+    width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+caption {
+    font-weight: bold;
+}
+
+.sections {
+    background-color:#5F6F52;
+    padding: 15px;
+}
+
+th {
+    color: white;
+    border: 1px solid black;
+}
+
+td {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.categories { 
+    background-color: #efece2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#information {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#status {
+    font-family: monospace;
+}
+
+ol {
+    font-style: italic;
+}
+#quote {
+    text-align: center;
+    font-style: italic;
+}
+
+#fun-fact {
+    text-align: justify;
+}
+
+#highlight {
+    text-decoration: underline;
+}
+
+#footer {
+    text-align: center;
+}
+
+a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:#edd7d7;
+}
+
+a:hover {
+    color: #fffb00;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff9f44;
+}
